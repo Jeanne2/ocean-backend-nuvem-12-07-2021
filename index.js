@@ -7,7 +7,7 @@ const { MongoClient, ObjectId } = require("mongodb");
 
     console.info("Conectando ao banco de dados...");
 
-    //const client = await MongoClient.connect(url, { useUnifiedTopology: true });
+    const client = await MongoClient.connect(url, { useUnifiedTopology: true });
 
     console.info("MongoDB conectado com sucesso!");
 
